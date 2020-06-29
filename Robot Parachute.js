@@ -27,7 +27,7 @@ SO!!! The goal is to write a program that GUARANTEES (this assumes the robots ha
 that they will find each other.
 */
 
-while(robotCheck() === false){
+findRobot = () => {
     count = 1;
     moveLeft(1);
     while(parachuteCheck() === false || robotCheck() === false){
